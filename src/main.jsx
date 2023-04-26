@@ -5,11 +5,17 @@ import { Hello } from './Helloworld'
 import { MyIntroduce } from './Introduce-myself'
 import { CounterApp } from './CounterApp'
 
+
 import "./styles.css"
 /* import './index.css' */
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <CounterApp value={50} />
+
+ <Hello/>
+
   </React.StrictMode>,
 )

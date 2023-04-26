@@ -35,6 +35,8 @@ console. log ('executing')
     <>
         <h1>Counter APP</h1>
 
+       
+
         <h2> Cups of coffe today {counter}</h2>
         <button onClick={CounterAdd}> +1 </button>
         <button onClick={CounterSubstract}> -1 </button>
