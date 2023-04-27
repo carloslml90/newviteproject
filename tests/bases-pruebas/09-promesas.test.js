@@ -17,7 +17,6 @@ GetHeroeByIdAsync(id)
 
     
 });
-// whatever
 done();
 
 
