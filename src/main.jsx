@@ -15,7 +15,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <CounterApp value={50} />
 
- <Hello/>
-
+ <Hello 
+ title='i love me a lot'
+ description='nothing interesting'
+ goal='Will be a great progammer'/>
+ 
   </React.StrictMode>,
 )

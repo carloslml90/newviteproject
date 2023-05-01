@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FirstApp/> tests should show title inside a h1 1`] = `
+<div>
+  <h1
+    data-testid="test-title"
+  >
+    The best developer
+  </h1>
+  <p />
+  <p />
+</div>
+`;

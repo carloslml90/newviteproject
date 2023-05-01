@@ -6,6 +6,7 @@ import { getImagen } from "../../src/bases-pruebas/11-async-await";
             const url=await getImagen();
                 console.log(url);
 
+                expect(typeof url).toBe('string');
 })
 
 })
